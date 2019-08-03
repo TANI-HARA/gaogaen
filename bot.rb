@@ -15,9 +15,9 @@ def destroy
 end
 
 bot.message(containing: "ガオガエン") do |event|
+  event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
   event.voice.play_file("gaogaen.mp3")
   event.voice.destroy
 end
@@ -95,7 +95,7 @@ bot.message(containing: "カス") do |event|
 end
 
 
-bot.command(:ファルコン・パンチ) do |event|
+bot.message(containing:"ファルコン・パンチ") do |event|
   event.send_message "ｱｱｱｱｱｱｱｱｱｱ"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
