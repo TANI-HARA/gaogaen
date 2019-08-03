@@ -95,7 +95,7 @@ bot.message(containing: "カス") do |event|
 end
 
 
-bot.message(containing: "ファルコン・パンチ") do |event|
+bot.command(:ファルコン・パンチ) do |event|
   event.send_message "ｱｱｱｱｱｱｱｱｱｱ"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
