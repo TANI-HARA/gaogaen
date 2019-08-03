@@ -23,98 +23,98 @@ bot.message(containing: "ガオガエン") do |event|
 end
 
 bot.message(containing: "ガオガエソ") do |event|
+  event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
   event.voice.play_file("gaogaen.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ﾝｶﾞｵｶﾞｴﾝｯ!") do |event|
+  event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
   event.voice.play_file("gogen.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ガガガガガ") do |event|
+  event.send_message "ｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞ"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞ"
   event.voice.play_file("ggggg.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ンエガオガ") do |event|
+  event.send_message "ﾝﾔｧ!ｵﾜｯ!"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ﾝﾔｧ!ｵﾜｯ!"
   event.voice.play_file("owa.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ガオガオ") do |event|
+  event.send_message "ｶﾞｵｶﾞｵｶﾞｵｶﾞｵｶﾞｵ"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ｶﾞｵｶﾞｵｶﾞｵｶﾞｵｶﾞｵ"
   event.voice.play_file("gaogaogao.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "死ね") do |event|
+  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
   event.voice.play_file("en.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "殺す") do |event|
+  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
   event.voice.play_file("en.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ゴミ") do |event|
+  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
   event.voice.play_file("en.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "カス") do |event|
+  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
   event.voice.play_file("en.mp3")
   event.voice.destroy
 end
 
 
 bot.message(containing: "ファルコン・パンチ") do |event|
+  event.send_message "ｱｱｱｱｱｱｱｱｱｱ"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ｱｱｱｱｱｱｱｱｱｱ"
   event.voice.play_file("aaaaa.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ガァオガァエン！！！") do |event|
+  event.send_message "ガオﾞガエﾞンﾞ"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ガオﾞガエﾞンﾞ"
   event.voice.play_file("gaaaa.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "帰れ") do |event|
+  event.send_message "ｶﾞｯ……"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.send_message "ｶﾞｯ……"
   event.voice.play_file("ga.mp3")
   event.voice.destroy
 end
