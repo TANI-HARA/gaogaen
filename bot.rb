@@ -1,6 +1,6 @@
 # encoding: utf-8
 require 'discordrb'
-bot = Discordrb::Commands::CommandBot.new token: ENV['TOKEN'], client_id: ENV['craiant'] , prefix:""
+bot = Discordrb::Commands::CommandBot.new token: 'NTM1MTQ2MzMxNzc4MzE4Mzg3.XM_uug.A7eB0gSLvdkALf-PMX3NQg93VIA', client_id: 535146331778318387 , prefix:""
 $voice_state=false
 
 
@@ -15,107 +15,107 @@ def destroy
 end
 
 bot.message(containing: "ガオガエン") do |event|
-  event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("gaogaen.mp3")
+  event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
+  $voice.play_file("gaogaen.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ガオガエソ") do |event|
-  event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("gaogaen.mp3")
+  event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
+  $voice.play_file("gaogaen.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ﾝｶﾞｵｶﾞｴﾝｯ!") do |event|
-  event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("gogen.mp3")
+  event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
+  $voice.play_file("gogen.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ガガガガガ") do |event|
-  event.send_message "ｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞ"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("ggggg.mp3")
+  event.send_message "ｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞｶﾞ"
+  $voice.play_file("ggggg.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ンエガオガ") do |event|
-  event.send_message "ﾝﾔｧ!ｵﾜｯ!"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("owa.mp3")
+  event.send_message "ﾝﾔｧ!ｵﾜｯ!"
+  $voice.play_file("owa.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ガオガオ") do |event|
-  event.send_message "ｶﾞｵｶﾞｵｶﾞｵｶﾞｵｶﾞｵ"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("gaogaogao.mp3")
+  event.send_message "ｶﾞｵｶﾞｵｶﾞｵｶﾞｵｶﾞｵ"
+  $voice.play_file("gaogaogao.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "死ね") do |event|
-  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("en.mp3")
+  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
+  $voice.play_file("en.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "殺す") do |event|
-  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("en.mp3")
+  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
+  $voice.play_file("en.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ゴミ") do |event|
-  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("en.mp3")
+  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
+  $voice.play_file("en.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "カス") do |event|
-  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("en.mp3")
+  event.send_message "ｴｪｪｪｪﾝ……ｴｪｪｪｪﾝ……"
+  $voice.play_file("en.mp3")
   event.voice.destroy
 end
 
 
-bot.message(containing:"ファルコン・パンチ") do |event|
-  event.send_message "ｱｱｱｱｱｱｱｱｱｱ"
+bot.message(containing: "ファルコン・パンチ") do |event|
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("aaaaa.mp3")
+  event.send_message "ｱｱｱｱｱｱｱｱｱｱ"
+  $voice.play_file("aaaaa.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "ガァオガァエン！！！") do |event|
-  event.send_message "ガオﾞガエﾞンﾞ"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("gaaaa.mp3")
+  event.send_message "ガオﾞガエﾞンﾞ"
+  $voice.play_file("gaaaa.mp3")
   event.voice.destroy
 end
 
 bot.message(containing: "帰れ") do |event|
-  event.send_message "ｶﾞｯ……"
   channel = event.user.voice_channel
   bot.voice_connect(channel)
-  event.voice.play_file("ga.mp3")
+  event.send_message "ｶﾞｯ……"
+  $voice.play_file("ga.mp3")
   event.voice.destroy
 end
 
