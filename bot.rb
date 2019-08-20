@@ -1,6 +1,6 @@
 # encoding: utf-8
 require 'discordrb'
-bot = Discordrb::Commands::CommandBot.new token: 'NTM1MTQ2MzMxNzc4MzE4Mzg3.XM_uug.A7eB0gSLvdkALf-PMX3NQg93VIA', client_id: 535146331778318387 , prefix:""
+bot = Discordrb::Commands::CommandBot.new token: ENV['TOKEN'], client_id: ENV['craiant'] , prefix:""
 $voice_state=false
 
 
