@@ -18,7 +18,7 @@ bot.message(containing: "ガオガエン") do |event|
   channel = event.user.voice_channel
   bot.voice_connect(channel)
   event.send_message "ﾝｶﾞｵｶﾞｴﾝｯ!"
-  $voice.play_file("gaogaen.mp3")
+  event.voice.play_file("gaogaen.mp3")
   event.voice.destroy
 end
 
